@@ -1,5 +1,4 @@
-#exclude: '\.ipynb_checkpoints/'
-exclude: ^\.gitignore$
+exclude: '\.ipynb_checkpoints/' # don't check files in this directory
 
 repos:
   - repo: https://github.com/nbQA-dev/nbQA
