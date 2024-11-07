@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.5.2 # Latest stable version of nbQA
+    hooks:
+      - id: nbqa-black
+        name: black (nbqa)
+        args: ["--line-length=88"] # Black’s default line length
+        additional_dependencies: ["black==23.9.1", "setuptools"] # Ensure Black and setuptools are available
