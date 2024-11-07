@@ -6,3 +6,8 @@ repos:
         name: black (nbqa)
         args: ["--line-length=88"] # Black’s default line length
         additional_dependencies: ["black==23.9.1", "setuptools"] # Ensure Black and setuptools are available
+
+      - id: nbqa-isort
+        name: isort (nbqa)
+        args: ["--profile=black"]
+        additional_dependencies: ["isort", "setuptools"]
