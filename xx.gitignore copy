@@ -1,0 +1,38 @@
+# hidden Mac file of cached metadata when Finder is used to browse folders
+.DS_Store
+Thumbs.db
+
+#VS Code workspace file
+.VSCode
+
+#Python dotenv file
+*.env                  # Environment files (if used for storing secrets)
+
+#Python and Anaconda virtual environment
+env                   # Anaconda or virtual environment directory (if named 'env')
+venv                  # Virtual environment directory
+*.conda                # Conda package files
+*.venv                 # Alternate virtual environment configurations
+
+
+#Python
+__pycache__/           # Compiled Python cache files
+*.py[cod]              # Compiled bytecode files
+*.pyo                  # Python optimization files
+*.pyd                  # Compiled Python extension modules
+*.so                   # Shared object files for extensions
+
+
+#Python Jupyter Notebooks
+.ipynb_checkpoints    # Jupyter notebook checkpoints (auto-saved backup files)
+*.ipynb~               # Temporary notebook files
+
+
+#R
+.Rproj.user
+.Rdata
+.Rhistory
+
+
+#environment file for AWS Beanstalk
+.ebextensions/environment_variables.config
